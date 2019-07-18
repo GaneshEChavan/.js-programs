@@ -18,10 +18,8 @@ function notes_count(amount) {
         let remain = amount % currency_available[i];
         let notes = parseInt(amount / currency_available[i]);
         txt += `${notes} notes of ${currency_available[i]} \n`;
-        i += 1;
-        // console.log(i, `remain:::`, remain);
+        i++;
         notes_count(remain);
-        // i++;
     }
     return (txt);
 }
