@@ -1,4 +1,4 @@
-/*const statementFirst = "rail safety";
+const statementFirst = "rail safety";
    const statementSecond = "fairy tales";
 
    let arr1 = statementFirst.split("").sort();
@@ -17,7 +17,7 @@
    }
    else{
        console.log("Not Anagram")
-   }*/
+   }
 
 
 // Solve by using forEach method (ES6)
