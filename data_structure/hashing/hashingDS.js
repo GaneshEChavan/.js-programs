@@ -71,3 +71,5 @@ ht.add('hey', '89556');
 ht.add('hello', '89556');
 ht.add('hii', '89556');
 ht.print();
+
+export modules = hashTable;
